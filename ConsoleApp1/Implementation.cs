@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Singleton {
     public class Logger {
-
+        //Thread safe maner with Lazy loading 
         private static readonly Lazy<Logger> _lazyLogger
             = new Lazy<Logger>(() => new Logger());
 
