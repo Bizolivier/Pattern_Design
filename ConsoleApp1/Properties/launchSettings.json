@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Singleton": {
+      "commandName": "Project"
+    },
+    "FactoryMethod": {
+      "commandName": "Executable",
+      "nativeDebugging": true
+    }
+  }
+}
